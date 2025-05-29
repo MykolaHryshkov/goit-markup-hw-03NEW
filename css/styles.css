@@ -336,5 +336,9 @@ p, h1, h2, h3, h4, h5, h6 {
     box-sizing: content-box;
 }
 
+a {
+    display: inline-block;
+}
+
 
 
