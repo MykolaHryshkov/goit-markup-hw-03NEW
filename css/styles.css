@@ -6,7 +6,11 @@ body {
     letter-spacing: 0.02em; 
 }
 
-.img {
+.headerone {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+img {
     display: block;
 }
 
@@ -22,10 +26,11 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .container { 
-    width: 1158; 
+    width: 1158px; 
     padding-left: 15px;
     padding-right: 15px;
    margin: 0 auto;
+   display: flex;
     }
 
 
@@ -39,6 +44,12 @@ p, h1, h2, h3, h4, h5, h6 {
     vertical-align: middle;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px
+    }
+
+    .ulnav {
+        display: flex;
+        margin-right: 40px;
     }
 
 .header_logo {
@@ -55,6 +66,7 @@ p, h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     letter-spacing: 2%;
     text-decoration: none;
+    margin-right: 40px;
     display: flex;
     
 }
@@ -112,7 +124,8 @@ p, h1, h2, h3, h4, h5, h6 {
     min-width: 169px;
     height: 56px;
     border: none;
-    border-radius: 4px
+    border-radius: 4px;
+    display: block;
 
 }
 .button_service:hover,
@@ -142,12 +155,32 @@ p, h1, h2, h3, h4, h5, h6 {
     padding-bottom: 120px;
 }
 
+.ultwo {
+    display: flex;
+    gap: 24px;
+}
+
+.litwo {
+    width: calc((100% - 72px) / 4);
+}
+
 .sectionthree {
     background-color: #F4F4FD;
     list-style: none;
     padding-top: 120px;
     padding-bottom: 120px;
 
+}
+
+.ulthree {
+    display: flex;
+    gap: 24px;
+}
+
+.liclass {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    
 }
 
 .our_team {
