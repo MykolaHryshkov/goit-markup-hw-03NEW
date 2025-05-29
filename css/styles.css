@@ -229,7 +229,7 @@ p, h1, h2, h3, h4, h5, h6 {
     color: #434455;
     list-style: none;
     text-align: center;
-    
+
 }
 
 .our_portfolio_one{
@@ -237,6 +237,25 @@ p, h1, h2, h3, h4, h5, h6 {
     padding-bottom: 120px;
 
 }
+
+.ulfour {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.lifour {
+    width: calc((100% - 48px) / 3); 
+}
+
+.divfour {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
 
 .our_portfolio {
     font-size: 36px;
@@ -268,8 +287,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .footer_footer {
     background-color: #2e2f42;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo_footerweb {
@@ -281,6 +300,8 @@ p, h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo_footer {
@@ -300,3 +321,5 @@ p, h1, h2, h3, h4, h5, h6 {
     padding-bottom: 100px;
     box-sizing: content-box;
 }
+
+
