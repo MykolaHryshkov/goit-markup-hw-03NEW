@@ -50,6 +50,7 @@ p, h1, h2, h3, h4, h5, h6 {
     .ulnav {
         display: flex;
         margin-right: 40px;
+        gap: 40px;
     }
 
 .header_logo {
@@ -68,7 +69,13 @@ p, h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     margin-right: 40px;
     display: flex;
-    
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.uladdress {
+    display: flex;
+    gap: 40px ;
 }
 
 .nav_nav {
@@ -161,7 +168,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .litwo {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .sectionthree {
@@ -172,6 +179,11 @@ p, h1, h2, h3, h4, h5, h6 {
 
 }
 
+.divpeople {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .ulthree {
     display: flex;
     gap: 24px;
@@ -180,7 +192,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .liclass {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    
+
 }
 
 .our_team {
@@ -206,6 +218,8 @@ p, h1, h2, h3, h4, h5, h6 {
     color: #2e2f42;
     list-style: none;
     margin-bottom: 8px;
+    text-align: center;
+    margin-bottom: 8px
 }
 
 .ppeople {
@@ -214,6 +228,8 @@ p, h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.02em;
     color: #434455;
     list-style: none;
+    text-align: center;
+    
 }
 
 .our_portfolio_one{
