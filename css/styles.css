@@ -305,24 +305,6 @@ p, h1, h2, h3, h4, h5, h6 {
     padding-bottom: 100px;
 }
 
-.logo_footerweb {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px; 
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: 16px;
-    display: inline-block;
-}
-
-.logo_footer {
-    color: #f4f4fd;
-    display: inline-block;
-}
 
 .p_footer {
     line-height: 1.5;
@@ -339,4 +321,23 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
+.footer {
+    background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-logo-studio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd; }
 
