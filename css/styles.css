@@ -316,6 +316,7 @@ p, h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     display: inline-block;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .logo_footer {
@@ -337,12 +338,5 @@ p, h1, h2, h3, h4, h5, h6 {
     box-sizing: content-box;
 }
 
-a {
-    display: inline-block;
-}
-
-.footer__logo-blue {
-    display: inline-block;
-}
 
 
