@@ -43,7 +43,8 @@ p, h1, h2, h3, h4, h5, h6 {
     vertical-align: middle;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 76px
+    margin-right: 76px;
+    display: flex;
     }
 
     .ulnav {
