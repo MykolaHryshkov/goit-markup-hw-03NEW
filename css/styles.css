@@ -18,6 +18,7 @@ ul {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    list-style: none;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -46,19 +47,17 @@ p, h1, h2, h3, h4, h5, h6 {
     vertical-align: middle;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 76px;
     }
 
     .ulnav {
         display: flex;
         margin-right: 40px;
-        gap: 40px;
+        list-style: none;
+        margin-left: 76px;
     }
 
 .header_logo {
     color: #2E2F42;
-    margin-right: 76px;
-
 }
 
 .header_menu_link {
@@ -78,11 +77,16 @@ p, h1, h2, h3, h4, h5, h6 {
 .uladdress {
     display: flex;
     gap: 40px ;
+    list-style: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav_nav {
     display: flex;
     align-items: center;
+    margin-right: 252px;
+
 }
 
 .header_menu_link:hover,
@@ -112,14 +116,17 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .heffective_solutions {
-    max-width: 496px;
+    font-weight: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 48px;
+    padding-right: 316px;
+    padding-left: 316px;
 }
+
 
 .button_service {
     background-color: #4D5AE5;
@@ -135,6 +142,9 @@ p, h1, h2, h3, h4, h5, h6 {
     border: none;
     border-radius: 4px;
     display: block;
+    margin-left: 480px;
+    margin-right: 480px;
+    
 
 }
 .button_service:hover,
@@ -180,6 +190,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .ultwo {
     display: flex;
     gap: 24px;
+    list-style: none;
 }
 
 .litwo {
@@ -202,6 +213,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .ulthree {
     display: flex;
     gap: 24px;
+    list-style: none;
 }
 
 .liclass {
@@ -258,6 +270,7 @@ p, h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    list-style: none;
 }
 
 .lifour {
@@ -268,7 +281,6 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 
@@ -289,7 +301,6 @@ p, h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.02em;
     color: #2e2f42;
     list-style: none;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
