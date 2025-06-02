@@ -47,13 +47,14 @@ p, h1, h2, h3, h4, h5, h6 {
     vertical-align: middle;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px;
     }
 
     .ulnav {
         display: flex;
-        margin-right: 40px;
+        gap: 40px;
         list-style: none;
-        margin-left: 76px;
+
     }
 
 .header_logo {
@@ -68,7 +69,6 @@ p, h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     letter-spacing: 2%;
     text-decoration: none;
-    margin-right: 40px;
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
