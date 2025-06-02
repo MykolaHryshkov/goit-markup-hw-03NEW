@@ -116,14 +116,16 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .heffective_solutions {
-    font-weight: 496px;
+    font-weight: 496;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #ffffff;
-    padding-right: 316px;
-    padding-left: 316px;
+    max-width: 496px;
+    text-align: center;
+    margin: 0 auto 48px;
 }
 
 
