@@ -68,7 +68,7 @@ p, h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     letter-spacing: 2%;
     text-decoration: none;
-    padding-right: 40px;
+    margin-right: 40px;
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -116,12 +116,12 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .heffective_solutions {
+    font-weight: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-bottom: 48px;
     padding-right: 316px;
     padding-left: 316px;
 }
@@ -141,6 +141,7 @@ p, h1, h2, h3, h4, h5, h6 {
     border: none;
     border-radius: 4px;
     display: block;
+    margin-top: 48px;
     margin-left: 480px;
     margin-right: 480px;
     
